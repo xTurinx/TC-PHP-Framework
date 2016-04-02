@@ -9,6 +9,8 @@ class System
     const PUBLIC_DIRNAME         = "Public";
     const NAMESPACE_SEPERATOR    = "\\";
     const PHP_FILE_ENDING        = ".php";
+    const APPLICATION_NAMESPACE  = "\\App\\";
+    const CONTROLLER_NAMESPACE   = "\\App\\Controller\\";
 
     private function __construct()
     { }
